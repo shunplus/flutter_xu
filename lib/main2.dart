@@ -85,6 +85,30 @@ class _MyAppStateFulState extends State<MyAppStateFul> {
     );
   }
 
+  Widget _DefaultStyle() {
+    DefaultTextStyle(
+      //设置文本默认样式
+      style: TextStyle(
+        color: Colors.red,
+        fontSize: 20.0,
+      ),
+      textAlign: TextAlign.start,
+      child: Column(
+        crossAxisAlignment: CrossAxisAlignment.start,
+        children: <Widget>[
+          Text("Hello Flutter!"),
+          Text("Hello Flutter!"),
+          Text("Hello Flutter!",
+            style: TextStyle(
+                inherit: false, //不继承默认样式
+                color: Colors.grey
+            ),
+          ),
+        ],
+      ),
+    );
+  }
+
 
 }
 
