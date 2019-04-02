@@ -1,6 +1,9 @@
 import 'package:dio/dio.dart';
 import 'api.dart';
 
+/**
+ * 网络请求
+ */
 class HttpManager {
   Dio _dio;
   static HttpManager _instance;
