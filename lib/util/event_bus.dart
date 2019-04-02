@@ -1,5 +1,8 @@
 import 'dart:async';
 
+/**
+ * 使用Flutter实现EventBus
+ */
 class EventBus {
   static EventBus _instance;
   StreamController _streamController;

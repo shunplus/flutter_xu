@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_xu/ui/article_page.dart';
+import 'package:flutter_xu/ui/page_article.dart';
 
 
 void main() => runApp(ArticleApp());
