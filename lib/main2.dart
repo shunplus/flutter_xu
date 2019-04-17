@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 
 void main() => runApp(new MyAppStateFul());
 
+///第一个页面
 class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {

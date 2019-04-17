@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_xu/util/event_bus.dart';
-
+///生命周期
 void main() => runApp(new MyApp());
 
 class MyApp extends StatefulWidget {
