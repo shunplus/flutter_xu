@@ -25,6 +25,9 @@ dependencies:
   cupertino_icons: ^0.1.2
   dio: ^3.0.9
   banner_view: ^1.1.2
+  # log
+  fimber: ^0.1.10
+  rxdart: ^0.24.0
 
 dev_dependencies:
   flutter_test:
