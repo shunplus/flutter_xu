@@ -1,0 +1,9 @@
+/* 
+  InfoPlist.strings
+  Runner
+
+  Created by 徐顺 on 2021/3/15.
+  Copyright © 2021 The Chromium Authors. All rights reserved.
+*/
+"CFBundleName" = "flutter_应用";
+"CFBundleDisplayName" = "flutter_应用";

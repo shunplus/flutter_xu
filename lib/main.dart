@@ -56,6 +56,9 @@ class _ExampleState extends State<Example> {
 class Home extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
+    Locale myLocale = Localizations.localeOf(context);
+    String lc = myLocale.languageCode;
+    Fimber.d("myLocale.languageCode.lc=" + lc);
     return Container(
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start, //子控件左对齐

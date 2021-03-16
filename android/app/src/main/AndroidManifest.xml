@@ -11,7 +11,7 @@
     <uses-permission android:name="android.permission.INTERNET" />
     <application
         android:name="io.flutter.app.FlutterApplication"
-        android:label="Flutter_XXU"
+        android:label="@string/flutter_name">
         android:icon="@mipmap/ic_launcher">
         <activity
             android:name=".MainActivity"
